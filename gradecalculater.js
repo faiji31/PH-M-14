@@ -1,0 +1,25 @@
+let Marks = 76;
+
+if (Marks >= 90 && Marks < 100) {
+    console.log("A");
+} else if (Marks >= 85 && Marks <= 89) {
+    console.log("A-");
+} else if (Marks >= 80 && Marks <= 84) {
+    console.log("B+");
+} else if (Marks >= 75 && Marks <= 79) {
+    console.log("B");
+} else if (Marks >= 70 && Marks <= 74) {
+    console.log("B-");
+} else if (Marks >= 65 && Marks <= 69) {
+    console.log("C+");
+} else if (Marks >= 60 && Marks <= 64) {
+    console.log("C");
+} else if (Marks >= 55 && Marks <= 59) {
+    console.log("C-");
+} else if (Marks >= 50 && Marks <= 54) {
+    console.log("D+");
+} else if (Marks >= 45 && Marks <= 49) {
+    console.log("D");
+} else {
+    console.log("You Are Fail! Try next Semester");
+}
