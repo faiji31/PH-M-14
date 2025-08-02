@@ -1,4 +1,4 @@
-let Marks = 76;
+ let Marks = 87;
 
 if (Marks >= 90 && Marks < 100) {
     console.log("A");
